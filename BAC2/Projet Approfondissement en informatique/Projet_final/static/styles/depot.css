@@ -1,0 +1,68 @@
+#h1D{
+    padding: 10px 300px 0px 0px;
+  
+}
+
+p{
+    margin: 0px;
+}
+
+#logoD , #h1D{
+    margin:0px 0px  30px 10px;
+}
+
+#tete{
+    padding:0px 0px 20px 310px;
+}
+
+
+#deposer{
+    padding:83px 30px 30px 30px;
+    background-color:rgba(237, 241, 243);
+    padding-bottom: 185px;
+}
+
+#dpt {
+    margin-left: 18px;
+}
+
+#dpt_prix{
+    margin-left: 23px;
+}
+
+#auteur{
+    margin-left: 2px;
+}
+
+#deposer input{
+    margin-top: 5px ;
+}
+
+#depot:hover{
+    background-color:#0065d8;
+}
+
+
+#date{
+    padding-left: 1110px;
+   
+}
+
+/* Footer*/
+
+#footer ul li{
+    display: inline-block;
+    margin:0px 177px 0px 0px;
+}
+
+#footer{
+    background-color:rgba(220,220,220,0.5);
+    padding:60px 0px;
+   
+}
+
+#lst{
+    margin: 0px;
+}
+
+

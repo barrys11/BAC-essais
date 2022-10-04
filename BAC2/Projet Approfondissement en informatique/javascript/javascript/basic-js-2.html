@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Insert a value: <input id="number" type="number">
+<button onclick="calculate()">Convert</button>
+
+<p>
+
+This the calculated value: <div id="result">(Unknown)</div>
+
+<script>
+function calculate() { 
+    let number = document.getElementById("number").value;
+    let sum = 0
+    for ( let i = 0; i <= number; i++ )
+      sum = sum + i * i;
+    document.getElementById("result").innerHTML = 
+        sum;
+}
+</script>
+</p>
+Insert a value: <input id="nombre" type="number">
+<button onclick="factorielle()">fact</button>
+
+<p>
+  This the calculated value is: <div id="res">(Unknown)</div>
+
+<script>
+  function factorielle(){
+    let number=document.getElementById("nombre").value;
+    let fact=1
+    for(let i=1;i<=number;i++){
+      fact=i*fact;
+    }
+    document.getElementById("res").innerHTML = fact;
+  }
+</script> </p>
+
+Insert the value: <input id="dictionnaire" type="text">
+<button onclick="dictionnaire()">value</button>
+<p>
+  this value is: <div id="clé">(Unknown)</div>
+<script>
+  function dictionnaire(){
+    let flight={
+      airline: "EuroFly",
+      number: 815,
+      departure: {
+        time: "2004-09-22 14:55",
+        city: "Brussels"
+      },
+      arrival: {
+        time: "2004-09-23 10:42",
+        city: "Berlin"
+      }
+    }
+    let nom=document.getElementById("dictionnaire").value;
+    let l=[];
+    let word=nom.split(".");
+    for(let i=1;i<word.length;i++){
+      l.push(word[i]);
+    }
+    if(l.length===1){
+      let a=flight[l[0]];
+      document.getElementById("clé").innerHTML=a;
+    }
+    else if(l.length===2){
+      document.getElementById("clé").innerHTML=flight[l[0]][l[1]];
+    }
+    else{
+      document.getElementById("clé").innerHTML="la clé n'existe pas";
+    }
+  }
+</script>
+
+</p>
+</body>
+</html>

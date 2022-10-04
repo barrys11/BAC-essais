@@ -1,0 +1,106 @@
+/* Page select et vente */
+
+#h1PP{
+    padding: 10px 0px 0px 0px;
+}
+
+#logoPP , #h1PP{
+    margin:0px 0px  30px 10px;
+}
+
+#tete{
+    padding:0px 0px 20px 310px;
+}
+
+
+#carte li h2{
+    padding-left: 85px;
+}
+
+#carte li p{
+    margin-left: 685px;
+}
+
+#cartes ul {
+    padding: 0px;
+}
+
+#cartes ul li{
+    display: inline-block;
+}
+
+/* carte credit */
+#card{
+    padding-left: 600px;
+}
+
+#visa ul li{
+    display: inline-block;
+
+}
+
+#master-card ul #lst1 ,#master-card ul #lst2 ,#master-card ul #lst3{
+    display: inline-block;
+}
+
+#visa h2{
+    margin-left: 30px;
+}
+
+
+.deplacement{
+    background-color:rgba(237, 241, 243);
+}
+
+#footer ul li{
+    display: inline-block;
+    margin:0px 177px 0px 0px;
+}
+
+#footer{
+    background-color:rgba(220,220,220,0.5);
+    padding:50px 0px;
+}
+
+#lst{
+    margin: 0px;
+}
+
+/*panier*/
+
+h2{
+    margin-top: 15px;
+}
+#color{
+    background-color: white;
+}
+.panier{
+    margin-left: 20px;
+}
+.panier table{
+    width: 80%;
+}
+#bouge{
+    position: absolute;
+    left: 75%;
+}
+#move_prix{
+    position: absolute;
+    left: 50%;
+}
+#deplace{
+    position: absolute;
+    left: 77%;
+}
+
+/* Panier*/
+#h1Pan{
+    padding: 10px 170px 0px 0px;
+}
+#logoPan , #h1Pan{
+    margin:0px 0px  30px 10px;
+}
+#tetePan{
+    padding:0px 0px 20px 310px;
+}
+

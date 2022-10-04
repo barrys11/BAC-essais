@@ -1,0 +1,65 @@
+body{
+    margin: 30px;
+    background-image: url("/image/font.jpg");
+}
+
+/* Tete */
+.tete{
+    border: 10px solid black;
+}
+.tete ul li{
+    display: inline-block;
+    padding:0px;
+}
+
+.tete #logo{
+    padding-right:800px;
+}
+
+.tete .sous_tete{
+    padding-right:320px;
+}
+
+.tete ul li h1{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/*page1*/
+
+#jour ul li{
+    display: inline-block;
+}
+#jour p1{
+    margin: 0px 0px 0px 700px;
+}
+
+#jour , .position{
+    padding-left: 50px;
+}
+
+/* corps de la page*/
+#tab{
+    width: 80%;
+    background-color: white;
+    margin: 0px 35px;
+}
+
+th,td{
+    border: 1px solid black;
+}
+/*page2*/
+
+#soumission{
+    margin:40px 0px 30px 10px
+}
+label{
+    display: inline-flex;
+    height: 50px;
+}
+
+#case1{
+    height: 200px;
+    width: 400px;
+}

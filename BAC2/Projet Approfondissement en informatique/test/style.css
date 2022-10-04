@@ -1,0 +1,48 @@
+body{
+    
+    background-image: url("image/font.png");
+}
+
+h1,p{ 
+    line-height: 1.10;
+    display: inline-block; 
+    vertical-align: middle;   
+}
+p{
+    padding-left: 200px;
+    font-size: 25px;
+}
+
+h1{
+    padding-right: 400px;
+    font-size: 45px;
+    margin-inline-end: 3px;
+}
+#head{
+    border:6px solid black ;
+    
+}
+
+section{
+    padding: 20px;
+    font-family: 1em Helvetica Neue Helvetica Arial sans-serif;
+ }
+ #head ::placeholder{
+     font-size: 15px;
+     color: black;
+ }
+
+ #inp1{
+    padding: 10px;
+    border: 2px solid black;
+ }
+ p2{
+     font-size: 30px;
+     font-family: sans-serif;
+     color: black;
+ }
+ input{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+}

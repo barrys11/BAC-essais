@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("li").toggle(1000);
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Toggle all bullet points</button>
+<p>
+These are the paragaphs:
+<ul>
+<li>This is a paragraph with little content.</li>
+<li>This is another small paragraph.</li>
+</ul>
+</body>
+</html>

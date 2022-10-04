@@ -1,0 +1,103 @@
+body{
+    margin: 30px;
+    background-image: url("/image/font.jpg");
+}
+/* Tete */
+.tete{
+    border: 10px solid black;
+}
+
+.tete ul li{
+    display: inline-flex;
+    padding: 0px;
+}
+
+.tete input{
+    margin: 0px 300px 0px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.tete ul li h1{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+/*page1*/
+#jour ul li{
+    display: inline-block;
+}
+
+#jour p1{
+    margin: 0px 0px 0px 700px;
+}
+
+/* corps de la page*/
+#tab{
+    width: 80%;
+    background-color: white;
+    margin: 0px 35px;
+}
+th,td{
+    border: 1px solid black;
+}
+
+/*page2*/
+#soumission{
+    margin:40px 0px 30px 10px 
+}
+label{
+    display: inline-flex;
+    height: 50px;
+}
+#case1{
+    height: 200px;
+    width: 400px;
+}
+
+/*
+
+.tete p{
+    margin: 500px 0px 0px 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.tete ul li ::placeholder{
+    font-size: 15px;
+    color: black;
+}
+
+input{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+}
+h2{
+    padding-left: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*ajouter
+
+#champ{
+    margin-top: 100px;
+    
+}
+
+
+#champ #tc th{
+    display: inline-block;
+    padding-left: 30px;
+    margin-left: 5px;
+    
+}
+
+#champ table{
+    padding-left: 140px;
+}
+#j1{
+    padding-left: 420px;
+}*/

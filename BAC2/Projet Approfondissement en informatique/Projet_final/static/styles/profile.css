@@ -1,0 +1,81 @@
+/*Profil*/
+#h1P{
+    padding: 10px 300px 0px 0px;
+  
+}
+
+p{
+    margin: 0px;
+}
+
+#logoP , #h1P{
+    margin:0px 0px  30px 10px;
+}
+
+#tete{
+    padding:0px 0px 20px 310px;
+}
+
+.profile{
+    padding:40px 30px 30px 30px;
+    background-color:rgba(237, 241, 243);
+}
+
+input:hover{
+    background-color:#0065d8;
+}
+
+#h1G{
+
+    padding: 10px 230px 0px 0px;
+}
+
+#logoG , #h1G{
+    margin:0px 0px  30px 10px;
+}
+
+#teteG{
+    padding:0px 0px 20px 90px;
+}
+
+#container{
+    padding-top: 39px;
+}
+
+.container-fluid{
+    padding-top: 50px;
+}
+
+
+/* Footer*/
+
+#footer ul li{
+    display: inline-block;
+    margin:0px 177px 0px 0px;
+}
+
+#footer{
+    position: relative;
+    background-color:rgba(220,220,220,0.5);
+    padding:50px 0px;
+    bottom: -90px;
+   
+}
+
+#lst{
+    margin: 0px;
+}
+
+
+/* table*/
+
+table{
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+

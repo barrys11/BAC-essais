@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/style1.css" rel="stylesheet"> 
+    <title>Iditification</title>
+</head>
+<body>
+    <section class= "container">
+        <img id="logoID"  src="image/logo1.png" alt="">
+          <h1>Book Store</h1>
+        <form action="display" method="post">
+            <p style="color: red;">{{erreur}}</p>
+            <label for="utilisateur" class="form-label">Nom d'utilisateur: </label><br>
+            <input type="text" type="text" name="utilisateur" class="form-input" required><br>
+            <label for="mot_de_passe" class="form-label">Mot de passe: </label><br>
+            <input id="cas" type="text" name="mot_de_passe" class="form-input" required><br>
+            <input id="soumis" type="submit" value="Login" >
+        </form>
+            <form action="ident" method="GET">
+                <input type="submit" value="Nouveau Compte" name="Nouveau_Compte" id="ncompte">
+            </form>
+
+            <form action="oublier" method="GET">
+                <input type="submit" value="Mot de passe oublier?" name="mot_passe_oublier">
+            </form>
+        </div>
+    </section>
+
+    <section id="footer">
+        <ul>
+            <li><p>Approfondissement en sciences informatiques</p></li>
+            <li> <p> UCL-Louvain-La-Neuve</p></li>
+            <li><p>© Connexion</p></li>
+        </ul>
+    </section>
+
+</body>
+</html>

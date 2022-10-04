@@ -1,0 +1,20 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "true",
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.3"
+  }
+}

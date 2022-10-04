@@ -1,0 +1,144 @@
+#long{
+    min-height: 610px;
+}
+
+p3{
+    padding-left:800px;
+}
+
+#jour ul li{
+    padding-top: 40px;
+    display: inline-block;
+}
+
+#jour{
+    padding:40px 0px 0px 100px;
+}
+
+p2{
+    font-size: small;
+}
+
+.tableau{
+    padding: 40px 100px ;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+  
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+
+/* Boodstrap */
+
+#titre{
+    padding-right: 310px;
+    margin-left: 15px;
+}
+
+
+#nav-link{
+    margin-bottom: 45px;
+}
+
+/* prix total a acheter */
+.total{
+    padding-right: 148px;
+    font-size:x-large;
+}
+
+.montant{
+    font-size: larger;
+}
+#verticale li{
+    display: inline-block;
+    padding: 0px;
+}
+
+#carte ul li{
+    display: inline-block;
+    padding:10px;
+}
+.deplacement{
+    padding: 0px 20px;
+    margin: 0px 300px;
+    background-color: green;
+}
+
+#visa ul li{
+    display: inline-block;
+    padding:10px;
+}
+
+/* Index */
+
+
+#h1{
+    padding: 10px 0px 0px 0px;
+}
+
+
+#date{
+ padding-left: 1110px;
+
+}
+
+.connection{
+    padding:0px 0px 0px 170px;
+}
+
+.navbar-nav , h1{
+    padding-top: 0px;
+}
+
+#tete{
+    padding:0px 0px 20px 90px;
+}
+
+#lgo,#h1{
+    margin:0px 0px  30px 10px;
+}
+
+
+/* Page principale*/
+
+#h1PP{
+    padding: 10px 0px 0px 0px;
+}
+
+#logoPP , #h1PP{
+    margin:0px 0px  30px 10px;
+}
+
+.acceuilPP{
+    padding-left: 100px;
+}
+
+
+/* Footer*/
+
+#footer ul li{
+    display: inline-block;
+    margin:0px 177px 0px 0px;
+}
+
+#footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(220,220,220,0.5);
+    padding:50px 0px;
+   
+}
+#app{
+    margin-left: 100px;
+}
+#lst{
+    margin: 0px;
+}
